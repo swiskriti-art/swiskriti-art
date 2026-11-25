@@ -32,6 +32,16 @@ Helped reduce unresolved reporting discrepancies by **19%** and manual analysis 
 
 </details>
 
+## ✦ Analytics engineering work
+
+| Project | What it does | Stack |
+|---------|-------------|-------|
+| [retail-margin-cockpit](https://github.com/swiskriti-art/retail-margin-cockpit) | Governed margin and inventory model: a dbt star schema with **56** tests, a DAX measure library, and a Power BI semantic model with row-level security mirrored in Postgres | SQL, dbt, Power BI, DAX, DuckDB, PostgreSQL |
+| [field-ops-sql-cost-audit](https://github.com/swiskriti-art/field-ops-sql-cost-audit) | Reconciles messy field-operations data into a true cost-to-serve per job and shows where SLA breaches concentrate | SQL, dbt, DuckDB, PostgreSQL, Tableau |
+| [metricregistry](https://github.com/swiskriti-art/metricregistry) | Executable, versioned KPI definitions with a monitor that flags when metrics measuring the same thing disagree | Python, SQL, SQLite |
+| [lineagelens](https://github.com/swiskriti-art/lineagelens) | Column-level SQL lineage: lists the downstream columns and dashboards that break when one column changes | Python, SQL |
+| [streamguard-cdc](https://github.com/swiskriti-art/streamguard-cdc) | Change-data-capture pipeline from Postgres through Debezium and Kafka to ClickHouse, with dedupe, schema evolution and windowed aggregation | Python, Kafka, Debezium, ClickHouse, Grafana |
+
 ## ✦ Experience
 
 | Period | Role | Company | Highlights |
@@ -52,13 +62,18 @@ Helped reduce unresolved reporting discrepancies by **19%** and manual analysis 
 ## ✦ Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=r,go,rust,html,bash,js&theme=dark&perline=8" alt="r, go, rust, html, bash, js" />
+  <img src="https://skillicons.dev/icons?i=py,r,postgres,go,rust,html,bash,js&theme=dark&perline=8" alt="python, r, postgres, go, rust, html, bash, js" />
 </p>
 
 <p align="center"><a href="mailto:swiskriti@gmail.com"><b>Email</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/sushila-dawadi-6538851ab/"><b>LinkedIn</b></a> &nbsp;·&nbsp; <a href="https://github.com/swiskriti-art"><b>GitHub</b></a></p>
 
 ## ✦ Projects
 
+- [retail-margin-cockpit](https://github.com/swiskriti-art/retail-margin-cockpit) — A governed margin and inventory model: tested dbt star schema, DAX measure library and a Power BI semantic model with row-level security.
+- [field-ops-sql-cost-audit](https://github.com/swiskriti-art/field-ops-sql-cost-audit) — A dbt + SQL project that reconciles messy field-operations data into a true cost-to-serve per job and shows where SLA breaches concentrate.
+- [metricregistry](https://github.com/swiskriti-art/metricregistry) — Executable, versioned KPI definitions with a divergence monitor that flags when metrics claiming to measure the same thing disagree.
+- [lineagelens](https://github.com/swiskriti-art/lineagelens) — Column-level SQL lineage and impact analysis: the downstream columns and dashboards that read a column you want to change.
+- [streamguard-cdc](https://github.com/swiskriti-art/streamguard-cdc) — Change-data-capture pipeline: Postgres WAL → Debezium → Kafka-compatible broker → Python stream processor → ClickHouse.
 - [timeliner](https://github.com/swiskriti-art/timeliner) — A Rust super-timeline builder that merges Linux logs, login records, shell histories and bodyfiles into one UTC timeline tagged by YAML rules, exported as…
 - [driftlens](https://github.com/swiskriti-art/driftlens) — Go library and CLI that classifies drift between Git desired state and live Kubernetes objects, separating pending Git changes from manual edits, hot-patches…
 - [evtxkit](https://github.com/swiskriti-art/evtxkit) — A from-scratch Rust parser for Windows EVTX event logs with a chunk-parallel JSONL pipeline, CRC verification, damaged-file recovery and Sigma-style field…
